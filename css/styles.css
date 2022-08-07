@@ -1,0 +1,224 @@
+/* colors
+logo black #000000
+Logo blue #2196F3
+Nav black #212121
+Nav grey #757575
+Button text white #FFFFFF
+background dark #2F303A
+
+headling dark #212121
+text card #757575
+footer taxt grey color: rgba(255, 255, 255, 0.6);
+*/
+
+:root {
+    --primary-black-color: #000000;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --primary-white-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --background-dark-color:#2F303A;
+    --background-light-color:#F5F5F5;
+    --background-grey-color: #F5F4FA;
+}
+
+
+body {
+    margin: 0;  
+    padding: 0;  
+    border: 0;
+    box-sizing: border-box;  
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* header styles */
+.header {}
+
+.header-navigation {
+    color: var(--title-text-color);
+}
+
+.logo__link {
+    color: var(--primary-black-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo_text {
+    color: var(--accent-color);
+}
+
+.header__list {
+    list-style: none;
+}
+
+.header__item {
+}
+
+.header__link {
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.header__link:hover, 
+.header__link:focus,
+.contacts__link:hover,
+.contacts__link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.contacts__list {}
+
+.contacts__item {
+    list-style: none;
+}
+
+.contacts__link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+
+/* Main content */
+
+/* Section common properties */
+.dark {
+    background-color: var(--background-dark-color);
+    color: var(--primary-white-color);
+}
+
+.light {
+    background-color: var(--background-light-color);
+}
+
+.grey {
+    background-color: var(--background-grey-color);
+}
+
+.main_headling {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.headling {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.grid {
+    color: var(--primary-text-color);
+}
+
+.grid__item {
+    list-style: none;
+}
+
+.grid__image {}
+
+.grid__headling {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.grid__text {
+    color: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Effective solutions for business section */
+.button {
+    color: inherit;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Features headling */
+.headling.hidden {
+    color: transparent;
+}
+
+.grid__headling {
+    color: var(--title-text-color);
+}
+
+.grid__text {
+    color: inherit;
+}
+
+/* Specialization section */
+
+/* Team section */
+.grid__headling.headling {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.grid__text.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--background-dark-color);
+}
+
+.white {
+    color: var(--primary-white-color);
+}
+.footer__address {
+    color: var(--secondary-text-color);
+}
+
+.footer_list {
+    list-style: none;
+}
+.footer__item {}
+
+.footer__link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+
+
+
+
