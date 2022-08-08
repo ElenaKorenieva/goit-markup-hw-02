@@ -1,16 +1,3 @@
-/* colors
-logo black #000000
-Logo blue #2196F3
-Nav black #212121
-Nav grey #757575
-Button text white #FFFFFF
-background dark #2F303A
-
-headling dark #212121
-text card #757575
-footer taxt grey color: rgba(255, 255, 255, 0.6);
-*/
-
 :root {
     --primary-black-color: #000000;
     --title-text-color: #212121;
@@ -34,6 +21,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* STUDIO PAGE */
 /* header styles */
 .header {}
 
@@ -58,8 +46,7 @@ body {
     list-style: none;
 }
 
-.header__item {
-}
+.header__item {}
 
 .header__link {
     color: var(--title-text-color);
@@ -160,6 +147,7 @@ body {
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
+    border: none;
 }
 
 /* Features headling */
@@ -178,14 +166,14 @@ body {
 /* Specialization section */
 
 /* Team section */
-.grid__headling.headling {
+.grid__headling.main-style {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
 }
 
-.grid__text.text {
+.grid__text.main-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -193,7 +181,7 @@ body {
 }
 
 /* Footer styles */
-footer {
+.footer {
     background-color: var(--background-dark-color);
 }
 
@@ -212,13 +200,42 @@ footer {
 .footer__link {
     color: inherit;
     text-decoration: none;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
 
 
+/*PORTFOLIO PAGE */
 
+.grid__headling.secondary-style {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.grid__text.secondary-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.button.secondary {
+    background-color: var(--background-grey-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.button.secondary:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
 
 
 
